@@ -1,0 +1,26 @@
+{
+  "name": "github-passportjs-login",
+  "version": "1.0.0",
+  "description": "GitHub OAuth Login using PassportJS strategy",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppremk/github-passportjs-login.git"
+  },
+  "author": "ppremk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ppremk/github-passportjs-login/issues"
+  },
+  "homepage": "https://github.com/ppremk/github-passportjs-login#readme",
+  "dependencies": {
+    "express": "^4.16.1",
+    "express-session": "^1.15.6",
+    "passport": "^0.4.0",
+    "passport-github": "^1.1.0"
+  }
+}
